@@ -57,5 +57,5 @@ Kiraci sınıfını kullanarak yeni bir kiracı oluşturabilir ve bir ev sahibin
 `Kiraci yeniKiraci = new Kiraci("Ayşe", "Kaya", yeniBina);`
 `yeniKiraci.apartmanEkle(new Daire("123 Main St., Apt 2", 2));`
 
-![ezgif-2-ed8df21412](https://github.com/baharurundiker/NYP2Odev/assets/77542846/6b779297-8559-4058-b826-7bb96b5deeae)
+(https://github.com/baharurundiker/NYP2Odev/assets/77542846/6b779297-8559-4058-b826-7bb96b5deeae)
 
