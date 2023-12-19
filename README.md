@@ -41,7 +41,6 @@ Bina Oluşturma:
 Bina sınıfını kullanarak yeni bir bina oluşturabilirsiniz.
 
 `Bina yeniBina = new Bina("123 Main St.");`
-`Ev Sahibi Oluşturma:`
 
 evSahibi sınıfını kullanarak yeni bir ev sahibi oluşturabilir ve bir binaya bağlayabilirsiniz.
 
@@ -58,4 +57,5 @@ Kiraci sınıfını kullanarak yeni bir kiracı oluşturabilir ve bir ev sahibin
 `Kiraci yeniKiraci = new Kiraci("Ayşe", "Kaya", yeniBina);`
 `yeniKiraci.apartmanEkle(new Daire("123 Main St., Apt 2", 2));`
 
-https://github.com/baharurundiker/NYP2Odev/assets/77542846/6553d636-600c-4972-89b2-7b45b8d366fc
+![ezgif-2-ed8df21412](https://github.com/baharurundiker/NYP2Odev/assets/77542846/6b779297-8559-4058-b826-7bb96b5deeae)
+
