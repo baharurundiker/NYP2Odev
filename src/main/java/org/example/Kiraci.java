@@ -5,21 +5,15 @@ import org.example.Daire;
 import org.example.evSahibi;
 
 public class Kiraci extends evSahibi {
-     String kiraciAdi;
-     String kiraciSoyadi;
-    public Kiraci(String kiraciAdi, String kiraciSoyadi, Bina bina) {
-        super(kiraciAdi, kiraciSoyadi, bina);
-        this.kiraciAdi = kiraciAdi;
-        this.kiraciSoyadi = kiraciSoyadi;
-    }
 
+    public Kiraci(String ad, String soyad, Bina bina) {
+        super(ad, soyad, bina);
+    }
 
     @Override
     public void bilgileriGoruntule() {
         super.bilgileriGoruntule(); // Ev sahibinin bilgilerini göster
         System.out.println("---Kiracı Bilgileri---");
-        System.out.println(("Kiracı Adı " + kiraciAdi));
-        System.out.println(("Kiracı Soyadı " + kiraciSoyadi));
         System.out.println("Ev Sahibi Adı " + getAd());
         if (!getDaireler().isEmpty()) {
             Daire kiralikDaire = getDaireler().get(0); // Örnek olarak ilk daireyi alıyoruz, sizin kullanımınıza göre değiştirebilirsiniz.
