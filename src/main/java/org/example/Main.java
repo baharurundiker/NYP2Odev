@@ -17,7 +17,7 @@ public class Main {
         evSahibi.apartmanEkle(daire1);
         evSahibi.apartmanEkle(daire2);
 
-        // Kiracı oluşturma ve Ev Sahibine bağlama
+         // Kiracı oluşturma ve Ev Sahibine bağlama
         Kiraci kiraci = new Kiraci("Emine", "Zengin", bina);
         kiraci.apartmanEkle(new Daire("123 örnek sk. portakal apt.", 2));
 
